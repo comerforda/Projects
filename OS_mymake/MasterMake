@@ -1,0 +1,8 @@
+mymake : main.c helper.o helper.h graph.o graph.h dfs_stack.h 
+	gcc -o mymake main.c helper.o graph.o
+helper.o : helper.c helper.h
+	gcc -c helper.c
+graph.o : graph.c graph.h
+	gcc -c graph.c
+clean :
+	rm *.o mymake
