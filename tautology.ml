@@ -3,6 +3,13 @@
     csci_2041 section 001
     10/22/2019
     Project 1 - tautology checker
+    
+    This program receives a propositional logic expression and tests to see if it is a tautology.
+    It does so by first turning any expression into a Conditional (If statement) through equivalence
+    rules, then simplifies the conditional using simplification rules. If the expression is a tautology,
+    program returns 'true'. If it is not, returns 'false'.
+    This project exhibits proficiency of the functional programming style, heavily involving and pattern matching
+    and recursive techniques.
 *)
 
 type proposition = 
