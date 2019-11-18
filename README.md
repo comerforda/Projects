@@ -12,7 +12,7 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
   
   ThreadedWordCount:    
     This program is a practice on multi-threaded synchronization and the Producer/Consumer model.   
-    Subjects: Threads, Mutex Locks/Condition Variables, Producer/Consumers
+    Subjects: Threads, Mutex Locks/Condition Variables, File I/O
     
 # Advanced Programming Principles (Csci 2041) (Language: Ocaml)
   tautology.ml:  
