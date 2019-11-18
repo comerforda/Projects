@@ -5,7 +5,7 @@ x500: bolan108, comer059
 
 The purpose of this program is to create our own executable version of the 'make' command, called 'mymake'.
 mymake reads in a makefile and builds any target files specefied by executing their corresponding instructions.
-
+ 
 When 'mymake' is executed, it takes up to two arguments with the following structure:
 	./mymake filename
 	./mymake filename [target]
