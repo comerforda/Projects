@@ -5,7 +5,7 @@ x500: bolan108, comer059
 
 Description:
 
-This project, "Word Count Statistic" is an implementation of the Map-Reduce and Producer-Consumer models
+This project, "Word Count Statistic" is an implementation of the Producer-Consumer model
 executed in a synchronized, multi-threaded fashion.
 Given a text file, it reads and counts the first letter of every word in the file, storing the 
 count of each letter into a shared histogram, which is then outputted to a file, "result.txt" in
