@@ -4,17 +4,21 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
 # Operating Systems (Csci 4061) (Language: C)
   OS_mymake:  
     This program is an implementation of the Unix command 'make'.  
-    Subjects: Process spawning (fork, exec), DFS stack implementation, input tokenizing.  
+    Subjects: Process spawning (fork, exec), DFS stack implementation, input tokenizing.    
+    Grade: A+   
     
   OS_MapReduce:  
     This program is an implementation of the Map-Reduce model of programming.  
     Subjects: Directory traversal, Inter-process communication, file redirection.  
+    Grade: A
   
   ThreadedWordCount:    
     This program is a practice on multi-threaded synchronization and the Producer/Consumer model.   
-    Subjects: Threads, Mutex Locks/Condition Variables, File I/O
+    Subjects: Threads, Mutex Locks/Condition Variables, File I/O    
+    Grade: ?
     
 # Advanced Programming Principles (Csci 2041) (Language: Ocaml)
   tautology.ml:  
     Tautology checker for propositional logic expressions  
-    Subjects: High-level recursion, pattern matching  
+    Subjects: High-level recursion, pattern matching    
+    Grade: A
