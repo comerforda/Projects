@@ -22,3 +22,9 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
     Tautology checker for propositional logic expressions  
     Subjects: High-level recursion, pattern matching    
     Grade: A
+      
+  PureLispScanner:    
+    Scanner for a Pure Lisp Interpreter, it receives a Lisp expression and tokenizes it for a Parser to evaluate.   
+    Contains source code (makeScanner) and a test file (exclaim.in)   
+    Subjects: Higher-order functions, environments, closures    
+    Grade: ?
