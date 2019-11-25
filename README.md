@@ -1,7 +1,9 @@
 # Projects
 Collection of relevant projects I developed pursuing my Bachelors of Science at the University of Minnesota.
 
-# Operating Systems (Csci 4061) (Language: C)
+# Operating Systems (Csci 4061) (Language: C)   
+  These programs were written entirely by myself and partner, Azul Bolanos, with no framework given.     
+  Each has a README with a description and summary of the work done.    
   OS_mymake:  
     This program is an implementation of the Unix command 'make'.  
     Subjects: Process spawning (fork, exec), DFS stack implementation, input tokenizing.    
