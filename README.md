@@ -17,7 +17,7 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
   - ThreadedWordCount:    
     This program is a practice on multi-threaded synchronization and the Producer/Consumer model.   
     Subjects: Threads, Mutex Locks/Condition Variables, File I/O    
-    Grade: ?
+    Grade: A
     
   - NetworkedMapReduce:\
     A different execution of the MapReduce program with intra-process communication over a TCP/IP network.\
