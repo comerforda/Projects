@@ -22,7 +22,7 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
   - NetworkedMapReduce:\
     A different execution of the MapReduce program with intra-process communication over a TCP/IP network.\
     Subjects: Client/Server, TCP/IP networking, Multi-threading, process spawning, concurrency/synchronization.\
-    Grade: ?
+    Grade: A
     
 # Advanced Programming Principles (Csci 2041) (Language: Ocaml)
   - tautology.ml:  
@@ -34,4 +34,4 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
     Scanner for a Pure Lisp Interpreter, it receives a Lisp expression and tokenizes it for a Parser to evaluate.   
     Contains source code (makeScanner) and a test file (exclaim.in)   
     Subjects: Higher-order functions, environments, closures    
-    Grade: ?
+    Grade: A
