@@ -1,7 +1,11 @@
 # Projects
 Collection of relevant projects I developed pursuing my Bachelors of Science at the University of Minnesota.
 
-# Operating Systems (Csci 4061) (Language: C)   
+## Text Rain (Java - Processing):
+  * An interactable graphics program written in the Java-based Processing environment. Letters fall from the top
+  of a webcam like rain and you can lift them up/move them around with your body.
+
+## Operating Systems (Csci 4061) (Language: C)   
   These programs were written entirely by myself and partner, Azul Bolanos, with no framework given.     
   Each has a README with a description and summary of the work done.    
   - OS_mymake:  
@@ -24,7 +28,7 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
     Subjects: Client/Server, TCP/IP networking, Multi-threading, process spawning, concurrency/synchronization.\
     Grade: A
     
-# Advanced Programming Principles (Csci 2041) (Language: Ocaml)
+## Advanced Programming Principles (Csci 2041) (Language: Ocaml)
   - tautology.ml:  
     Tautology checker for propositional logic expressions  
     Subjects: High-level recursion, pattern matching    
