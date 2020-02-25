@@ -4,6 +4,10 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
 ## Text Rain (Java - Processing):
   * An interactable graphics program written in the Java-based Processing environment. Letters fall from the top
   of a webcam like rain and you can lift them up/move them around with your body.
+  
+## Car Soccer (C++):
+  * A small game based off Rocket League made as an introduction to the MinGfx graphics toolkit, utilizing the OpenGL API.
+    Drive a car around and hit a soccer ball into a goal with realistic simulated physics.
 
 ## Operating Systems (Csci 4061) (Language: C)   
   These programs were written entirely by myself and partner, Azul Bolanos, with no framework given.     
