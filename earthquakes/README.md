@@ -1,6 +1,6 @@
 # CSci-4611 Assignment 3:  Earthquake
 
-This program should include all of the required features in the project description (to my knowledge).
+This program visualizes data provided by NASA of every earthquake around the world from years 1910-2000. It utilizes the MinGfx graphics library which works off the OpenGL API. I create a textured mesh of the Earth and draw spheres where each earthquake occurs. You can switch the view of the Earth between a 3D globe and 2D map.
 
 * Earth mesh:  
   The earth is defined as a 360x180 mesh (one vertex for each degree). I initialize it by iterating by pi/180 from [-pi/2, pi/2] in the y and [-pi, pi] in the x. It properly maps the Earth texture to the mesh.
