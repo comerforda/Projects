@@ -1,6 +1,9 @@
 # Projects
 Collection of relevant projects I developed pursuing my Bachelors of Science at the University of Minnesota.
 
+## earthquakes (C++):
+  * This program was an exercise in low-level graphics programming. It creates a detailed mesh of the Earth in space, then interfaces    with public data from NASA of every earthquake reading since 1910. It iterates through each year up to the 2000s and displays every earthquake that happened in the last year at it's corresponding location on the globe.
+  
 ## Text Rain (Java - Processing):
   * An interactable graphics program written in the Java-based Processing environment. Letters fall from the top
   of a webcam like rain and you can lift them up/move them around with your body.
