@@ -17,7 +17,7 @@ Vec3 vel2[][] = new Vec3[nodesX][nodesY];
 Vec3 acc[][] = new Vec3[nodesX][nodesY];
 Vec3 air_vel = new Vec3(0, 0, 0);
 // Et Cetera
-Vec3 sphere_pos = new Vec3(-68, 220, -13);
+Vec3 sphere_pos = new Vec3(-67, 220, -13);
 //Vec3 sphere_pos = new Vec3(-50, 220, -15); 
 float sphere_rad = 5;
 PImage cloth;
@@ -36,13 +36,13 @@ void setup() {
   for (int i = 0; i < nodesX; i++) {
     for (int j = 0; j < nodesY; j++) {
       pos[i][j] = new Vec3(0,0, 0);
-      pos[i][j].x = -72;
+      pos[i][j].x = -71;
       pos[i][j].y = 200 + rest_len*j;
       pos[i][j].z = 0 - rest_len *i;
       vel[i][j] = new Vec3(0,0,0);
       
       pos2[i][j] = new Vec3(0,0, 0);
-      pos2[i][j].x = -72;
+      pos2[i][j].x = -71;
       pos2[i][j].y = 200 + rest_len*j;
       pos2[i][j].z = 30 - rest_len *i;
       vel2[i][j] = new Vec3(0,0,0);
@@ -138,12 +138,6 @@ void update(float dt, Vec3 pos[][], Vec3 vel[][], Vec3 acc[][]) {
           n.mul(sphere_rad - dist.length() + .6);
           pos[i][j].add(n);
         }
-        
-        if (pos[i][j].x < -75){
-          pos[i][j].x = -74.8;
-          vel[i][j].x = -vel[i][j].x *.3;
-        }
-        
       }
     }
   }
@@ -295,7 +289,7 @@ void drawScene() {
   // curtain rod
   fill(200, 220, 200);
   pushMatrix();
-  translate(-74, 199, 4);
+  translate(-72, 199, 4);
   box(1, 1, 55);
   popMatrix();
   
@@ -306,18 +300,19 @@ void drawScene() {
   box(.1, 25, 40);
   popMatrix();
   
+  noStroke();
   // window sill r
   fill(200, 200, 200);
   pushMatrix();
   translate(-74, 213, -15);
-  box(.5, 25, 0.5);
+  box(.3, 25, 0.3);
   popMatrix();
   
   // window sill l
   fill(200, 200, 200);
   pushMatrix();
   translate(-74, 213, 25);
-  box(.5, 25, 0.5);
+  box(.3, 25, 0.3);
   popMatrix();
   
   if (window == 0) {
@@ -325,22 +320,30 @@ void drawScene() {
     fill(200, 200, 200);
     pushMatrix();
     translate(-74, 213, 5);
-    box(.5, 0.5, 40);
+    box(.3, 0.3, 40);
     popMatrix();
   }
   // window sill top
   fill(200, 200, 200);
   pushMatrix();
-  translate(-74, 201, 5);
-  box(.5, 0.5, 40);
+  translate(-74, 200.5, 5);
+  box(.3, 0.3, 40);
   popMatrix();
   
   // window sill bot
   fill(200, 200, 200);
   pushMatrix();
-  translate(-74, 225, 5);
-  box(.5, 0.5, 40);
+  translate(-74, 225.5, 5);
+  box(.3, 0.3, 40);
   popMatrix();
+  
+  if (ball == 1) {
+    fill(10, 10, 10);
+    pushMatrix();
+    translate(-67, 240, -13);
+    box(1, 30, 1);
+    popMatrix();
+  }
 }
 
 
