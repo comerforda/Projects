@@ -169,12 +169,9 @@ void draw() {
   if (window == 1)
     air_vel = new Vec3(random(5, 20) , random (2,10), random(5,15));
     
-  stroke(0,0,0);
-  fill(0,0,0);
   // Draw sphere
   if (ball == 1){
-    stroke(200, 0, 0);
-    fill(200, 0, 0);
+    fill(150, 0, 200);
     pushMatrix();
     translate(sphere_pos.x, sphere_pos.y, sphere_pos.z);
     sphere(sphere_rad);
@@ -204,19 +201,6 @@ void drawCloth(Vec3 pos[][]) {
       vertex(pos[i][j+1].x, pos[i][j+1].y, pos[i][j+1].z,  //bottom left
             float(i)/(nodesX-1), float(j+1)/(nodesY-1));
       endShape();
-      
-      beginShape();
-      texture(cloth);
-      vertex(pos2[i][j].x, pos2[i][j].y, pos2[i][j].z,  //top left
-             float(i)/(nodesX-1), float(j)/(nodesY-1));
-      vertex(pos2[i+1][j].x, pos2[i+1][j].y, pos2[i+1][j].z, //top right
-            float(i+1)/(nodesX-1), float(j)/(nodesY-1));
-      vertex(pos2[i+1][j+1].x, pos2[i+1][j+1].y, pos2[i+1][j+1].z, //bottom right
-            float(i+1)/(nodesX-1), float(j+1)/(nodesY-1));
-      vertex(pos2[i][j+1].x, pos2[i][j+1].y, pos2[i][j+1].z,  //bottom left
-            float(i)/(nodesX-1), float(j+1)/(nodesY-1));
-      endShape();
-      
     }
   }
 }
