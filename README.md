@@ -1,8 +1,35 @@
 # Projects
 Collection of relevant projects I developed pursuing my Bachelors of Science at the University of Minnesota.
 
+## CAIPS_DesignDoc:
+* The final deliverable for our group Software Engineering project. In this graduate class we attended an elicitation session with a client tasking us to design a system for a university class and instructor assignment system. Having only one interaction with this client, we wrote an official SRS document, designed the business layer of the system interfacing with the UI and database layers, and wrote test cases for each requirement.
+
+## FireSim3D (Java - Processing):
+* This is a fire simulation using Navier-Stokes continuous fluid dynamics based on a paper by Jos Stam - "Real-Time Fluid Dynamics for Games". In this paper, Stam details how to use the Navier-Stokes fluid equations to create a smoke simulation. After successfully replicating this technique, I extended it to making a fire-simulation which added additional complexities such as bouyancy forces to cause the flames to rise, dampening the particles so they don't fill the area, and attempting to extend it to a 3D environment requiring higher resolution.
+* Project website with details of the features and a demonstration:  https://sites.google.com/d/1OZhpbYEqsyRRz-OgVV-HEp7BgbWvTkG7/p/10kkBrleZvmm-q3ZoC7ni2e7j62Ph5ytI/edit
+* Created for Animation and Planning graduate class. Idea and Research was done by myself with code referenced from Jos Stam's paper and modified to fit my project.
+
+## MazePath (Java - Processing):
+* This is my favorite work. It is a path-finding AI which solves any maze the User draws in the shortest distance. First, the User draws a closed-off maze with a start and an end point. Then the AI creates a probabilistic roadmap (PRM) based on random samples surrounding the walls of the maze and uses Uniform-Cost Search to solve the maze with the optimal path.
+* Project website with details of the features and a demonstration:  
+https://sites.google.com/view/mazesolver/home
+* Created for Animation and Planning graduate class. All ideas, research, and code was done independently by myself.
+
+## flocking_sim (Java - Processing):
+* This program is a simulation of flocking behavior (such as birds, or in this case, bugs) and a rudimentary particle system. 
+* Project website with details of the features and a demonstration:  
+https://sites.google.com/view/flocking-sim/home
+* Created for Animation and Planning graduate class. All ideas and code are my own but is based on examples from Dr. Stephen Guy.
+
+## cloth_sim3D (Java - Processing):
+* A 3D cloth simulation demonstrating how tension forces applied to a mesh of masses can simulate cloth-like behavior. 
+* Project website with details of the features and a demonstration:  
+https://sites.google.com/view/ac-cloth-sim/home
+* Created for Animation and Planning graduate class. All code is my own but is based on the ideas and code of Dr. Stephen Guy.
+
 ## earthquakes (C++):
   * This program was an exercise in low-level graphics programming. It creates a detailed sphere mesh, maps a high-res bitmap image of Earth to the mesh, then interfaces with public data from NASA of every earthquake reading since 1910. It iterates through each year up to the 2000s and displays every earthquake that happened in the last year at it's corresponding location on the globe.
+  * The code to interface to the NASA earthquake data was provided.
   
 ## Text Rain (Java - Processing):
   * An interactable graphics program written in the Java-based Processing environment. Letters fall from the top
