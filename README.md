@@ -27,18 +27,6 @@ https://sites.google.com/view/flocking-sim/home
 https://sites.google.com/view/ac-cloth-sim/home
 * Created for Animation and Planning graduate class. All code is my own but is based on the ideas and code of Dr. Stephen Guy.
 
-## earthquakes (C++):
-  * This program was an exercise in low-level graphics programming. It creates a detailed sphere mesh, maps a high-res bitmap image of Earth to the mesh, then interfaces with public data from NASA of every earthquake reading since 1910. It iterates through each year up to the 2000s and displays every earthquake that happened in the last year at it's corresponding location on the globe.
-  * The code to interface to the NASA earthquake data was provided.
-  
-## Text Rain (Java - Processing):
-  * An interactable graphics program written in the Java-based Processing environment. Letters fall from the top
-  of a webcam like rain and you can lift them up/move them around with your body.
-  
-## Car Soccer (C++):
-  * A small game based off Rocket League made as an introduction to the MinGfx graphics toolkit, utilizing the OpenGL API.
-    Drive a car around and hit a soccer ball into a goal with realistic simulated physics.
-
 ## Operating Systems (Csci 4061) (Language: C)   
   These programs were written entirely by myself and partner, Azul Bolanos, with no framework given.     
   Each has a README with a description and summary of the work done.    
@@ -57,6 +45,18 @@ https://sites.google.com/view/ac-cloth-sim/home
   - NetworkedMapReduce:\
     A different execution of the MapReduce program with intra-process communication over a TCP/IP network.\
     Subjects: Client/Server, TCP/IP networking, Multi-threading, process spawning, concurrency/synchronization.\
+    
+## earthquakes (C++):
+  * This program was an exercise in low-level graphics programming. It creates a detailed sphere mesh, maps a high-res bitmap image of Earth to the mesh, then interfaces with public data from NASA of every earthquake reading since 1910. It iterates through each year up to the 2000s and displays every earthquake that happened in the last year at it's corresponding location on the globe.
+  * The code to interface to the NASA earthquake data was provided.
+  
+## Text Rain (Java - Processing):
+  * An interactable graphics program written in the Java-based Processing environment. Letters fall from the top
+  of a webcam like rain and you can lift them up/move them around with your body.
+  
+## Car Soccer (C++):
+  * A small game based off Rocket League made as an introduction to the MinGfx graphics toolkit, utilizing the OpenGL API.
+    Drive a car around and hit a soccer ball into a goal with realistic simulated physics.
     
 ## Advanced Programming Principles (Csci 2041) (Language: Ocaml)
   - tautology.ml:  
