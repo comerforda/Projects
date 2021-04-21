@@ -6,7 +6,8 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
 
 ## FireSim2D (Java - Processing):
 * This is a fire simulation using Navier-Stokes continuous fluid dynamics based on a paper by Jos Stam - "Real-Time Fluid Dynamics for Games". In this paper, Stam details how to use the Navier-Stokes fluid equations to create a smoke simulation. After successfully replicating this technique, I extended it to a fire simulation which added additional complexities such as bouyancy forces, dampening, and a lot of parameter tuning.
-* Project website with details of the features and a demonstration:  https://sites.google.com/d/1OZhpbYEqsyRRz-OgVV-HEp7BgbWvTkG7/p/10kkBrleZvmm-q3ZoC7ni2e7j62Ph5ytI/edit
+* Project website with details of the features and a demonstration:  
+https://sites.google.com/view/firefinal/home
 * Final project for Animation and Planning graduate class. Idea and Research was done by myself with code referenced from Jos Stam's paper and modified to fit my project.
 
 ## MazePath (Java - Processing):
