@@ -7,7 +7,7 @@ Collection of relevant projects I developed pursuing my Bachelors of Science at 
 ## FireSim3D (Java - Processing):
 * This is a fire simulation using Navier-Stokes continuous fluid dynamics based on a paper by Jos Stam - "Real-Time Fluid Dynamics for Games". In this paper, Stam details how to use the Navier-Stokes fluid equations to create a smoke simulation. After successfully replicating this technique, I extended it to making a fire-simulation which added additional complexities such as bouyancy forces to cause the flames to rise, dampening the particles so they don't fill the area, and attempting to extend it to a 3D environment requiring higher resolution.
 * Project website with details of the features and a demonstration:  https://sites.google.com/d/1OZhpbYEqsyRRz-OgVV-HEp7BgbWvTkG7/p/10kkBrleZvmm-q3ZoC7ni2e7j62Ph5ytI/edit
-* Created for Animation and Planning graduate class. Idea and Research was done by myself with code referenced from Jos Stam's paper and modified to fit my project.
+* Final project for Animation and Planning graduate class. Idea and Research was done by myself with code referenced from Jos Stam's paper and modified to fit my project.
 
 ## MazePath (Java - Processing):
 * This is my favorite work. It is a path-finding AI which solves any maze the User draws in the shortest distance. First, the User draws a closed-off maze with a start and an end point. Then the AI creates a probabilistic roadmap (PRM) based on random samples surrounding the walls of the maze and uses Uniform-Cost Search to solve the maze with the optimal path.
