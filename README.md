@@ -1,5 +1,5 @@
 # Projects
-Collection of relevant projects I developed pursuing my Bachelors of Science at the University of Minnesota.
+Collection of relevant projects I developed during the course of my education.
 
 ## DroneDeliverySystem
 * Implementation of the business layer of a drone delivery system simulation. A drone navigates through downtown Minneapolis to pick up a parcel, then drops off the parcel to a customer somewhere in the city using realtime dynamic routing.  
