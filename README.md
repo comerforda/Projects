@@ -1,6 +1,10 @@
 # Projects
 Collection of relevant projects I developed pursuing my Bachelors of Science at the University of Minnesota.
 
+## DroneDeliverySystem
+* Implementation of the business layer of a drone delivery system simulation. A drone navigates through downtown Minneapolis to pick up a parcel, then drops off the parcel to a customer somewhere in the city using realtime dynamic routing.  
+* Project was done with a team of 4 with the intent of practicing professional software engineering principles under an Agile methodology. Three iterations were released each with new features detailed in requirements.
+
 ## CAIPS_DesignDoc:
 * The final deliverable for our group Software Engineering project. In this graduate class we attended an elicitation session with a client tasking us to design a system for a university class and instructor assignment system. Having only one interaction with this client, we wrote an official SRS document, designed the business layer of the system interfacing with the UI and database layers, and wrote test cases for each requirement.
 
